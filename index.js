@@ -3,7 +3,7 @@ const express = require('express')
 require('dotenv').config();
 const cors = require('cors')
 
-//file import--------------------------
+//file import-------------------------
 const db = require('./config/db')
 const userRoutes = require('./routes/user')
 const blogRoutes = require('./routes/blog')
